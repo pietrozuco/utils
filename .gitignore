@@ -1,0 +1,172 @@
+# ---- Python ----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Environment Files ----
+.env
+.env.*
+.envrc
+
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+pytest_cache/
+__pycache__/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- C/C++ ----
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.dSYM/*
+
+# ccache
+.ccache/
+.cache/
+
+# ---- Swift ----
+# Swift Package Manager
+Packages/
+.build/
+
+# Xcode
+# = Build generated files =
+build/
+DerivedData/
+*.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+
+# = Intermediate files =
+*.moved-aside
+*.xcuserstate
+
+# User-specific settings
+*.xcuserdatad/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift compiled outputs
+*.swiftmodule
+*.swiftdoc
+
+# ---- Objective-C / Xcode ----
+# Xcode project files
+*.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+# ---- Unix / Linux Development ----
+# Core dumps
+core
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*.log
+*.aux
+*.out
+
+# Vim swap files
+*.swp
+*.swo
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Trash folder which might appear on some mounted volumes
+.Trashes
+
+# Icon and resource fork files
+Icon?
+._*
+
+# ---- General IDE ----
+# JetBrains IDEs (PyCharm, CLion, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.cproject
+

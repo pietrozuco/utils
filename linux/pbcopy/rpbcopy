@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -euo pipefail
+
+copy_to_mac_clipboard() {
+    source_ip=$(echo "$SSH_CLIENT" | awk '{print $1}')
+
+    if [[ -z "$source_ip" ]]; then
+        echo "Error: Unable to determine source IP." >&2
+        exit 1
+    fi
+
+    if [ -t 0 ]; then
+        echo "Error: No input provided via stdin. Pipe content into the script." >&2
+        exit 1
+    fi
+
+    ssh -o BatchMode=yes -o ConnectTimeout=5 "${MACOS_USER:-$USER}"@"$source_ip" "pbcopy" < /dev/stdin
+}
+
+copy_to_mac_clipboard
+
